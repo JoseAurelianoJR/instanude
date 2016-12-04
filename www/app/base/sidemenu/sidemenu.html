@@ -2,7 +2,7 @@
 
   <ion-side-menu-content>
 
-    <ion-nav-bar align-title="center" class="bar bar-header">
+    <ion-nav-bar align-title="center" class="bar bar-header bar-royal">
       <!-- <ion-nav-buttons side="left">
         <button class="button button-icon button-clear ion-navicon-round" menu-toggle="left">
         </button>
@@ -22,9 +22,23 @@
       </ion-tab>
 
       <!-- Manu Tab -->
-      <ion-tab title="Menu"
-               icon-off="ion-ios-home-outline" 
-               icon-on="ion-ios-home" 
+      <ion-tab title="Buscar"
+               icon-off="ion-ios-search" 
+               icon-on="ion-ios-search-strong" 
+               href="#/app/main">
+        <ion-nav-view name="tab-profile"></ion-nav-view>
+      </ion-tab>
+      
+      <ion-tab title="Notificações"
+               icon-off="ion-android-notifications-none" 
+               icon-on="ion-android-notifications" 
+               href="#/app/main">
+        <ion-nav-view name="tab-profile"></ion-nav-view>
+      </ion-tab>
+
+      <ion-tab title="Configurações'"
+               icon-off="ion-ios-cog-outline" 
+               icon-on="ion-ios-cog" 
                href="#/app/main">
         <ion-nav-view name="tab-profile"></ion-nav-view>
       </ion-tab>

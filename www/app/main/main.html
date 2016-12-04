@@ -1,7 +1,26 @@
-<ion-view view-title="Main">
+<ion-view view-title="Instanudes">
   <ion-content class="padding has-header has-footer">
-    
-    <h1>main</h1>
+
+    <div class="item item-divider">
+      Timeline
+    </div>
+
+    <div class="list card" data-ng-repeat="detail in main.timeline">
+      <div class="item item-avatar">
+        <img src="{{ detail.avatar }}" class="in-thumb">
+        <h2>{{ detail.name }}</h2>
+        <p>{{ detail.post.date }} </p>
+      </div>
+
+      <div class="item item-image">
+        <img src="{{ detail.post.pic }}" class="in-thumb">
+        <p>{{ detail.post.description }}</p>
+      </div>
+
+      <a class="item item-icon-left assertive" href="" data-ng-click="main.countLikes()">
+        <i class="icon ion-thumbsup"></i> Top nude!
+      </a>
+    </div>
 
   </ion-content>
 </ion-view>
