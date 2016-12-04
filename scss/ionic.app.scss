@@ -1,0 +1,41 @@
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+// Modules
+@import "modules/buttons";
+@import "modules/colors";
+@import "modules/mixins";
+
+
+
+.view-container {
+  position: inherit !important;
+}
+
+// Remove scrollbar native
+::-webkit-scrollbar {
+    display: none !important;
+}
+
+::-webkit-scrollbar:vertical {
+    display: none !important;
+}
+
+::-webkit-scrollbar:horizontal {
+    display: none !important;
+}
+
+::-webkit-scrollbar-thumb {
+    display: none !important;
+}
+
+::-webkit-scrollbar-track {
+    display: none !important;
+}
+
+.has-footer {
+  bottom: 52px !important;
+}

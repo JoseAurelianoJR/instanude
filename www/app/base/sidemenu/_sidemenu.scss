@@ -1,0 +1,58 @@
+.ay-header {
+  background: $secondary-blue;
+  color: #FFF;
+}
+
+.ay-tabs {
+  .tabs {
+    background: $secondary-blue;
+    color: #FFF;
+    border-bottom: 0;
+    
+    .tab-item {
+      border-color: #0281bd;
+    }
+  }
+}
+
+.ay-sidemenu {
+  background: $secondary-blue;
+  
+  .ay-sidemenu-content {
+    padding-top: 10px;
+
+    .sidemenu-list {
+      li {
+        padding: 0;
+        border: none;
+
+        a {
+          font-size: 18px;
+          color: #FFF;
+          text-decoration: none;
+          display: inline-block;
+          width: 100%;
+          background: $secondary-blue;
+          padding: 15px;
+
+          i {
+            font-size: 22px;
+            padding-right: 5px;
+          }
+        }
+      }      
+    }
+  }
+
+}
+
+.ay-logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-image: url('../img/ay-logo-bw.png');
+  padding: 18px;
+  margin: 5px !important;
+}
+
+// .tabs-striped .tab-item.tab-item-active, .tabs-striped .tab-item.active, .tabs-striped .tab-item.activated
